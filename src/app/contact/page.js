@@ -1,8 +1,9 @@
 export default function ContactPage() {
   return (
-    <main className="p-8">
-      <h1 className="text-3xl font-bold">Kontakt</h1>
-      <p>Schreib uns eine Nachricht.</p>
+    <main className="min-h-screen bg-pink-300 p-20">
+      <h1 className="text-7xl font-black uppercase">
+        Contact
+      </h1>
     </main>
   );
 }
