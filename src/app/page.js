@@ -11,8 +11,8 @@ export default function HomePage() {
   {/* LOGO */}
   <Link href="/" className="transition hover:scale-105">
     <Image
-      src="/logo.png"
-      width={200}
+      src="/logo-new.png"
+      width={300}
       height={140}
       alt="Paw Club Logo"
       className="drop-shadow-[4px_4px_0px_black]"
@@ -26,6 +26,7 @@ export default function HomePage() {
     <Link href="/services">Services</Link>
 
     <Link href="/contact">Contact</Link>
+
   </div>
 
   {/* MENU BUTTON */}
@@ -64,7 +65,7 @@ export default function HomePage() {
 
       <div className="absolute bottom-0 left-0 flex w-full border-y-4 border-black bg-white py-4 text-2xl font-black uppercase">
         <div className="animate-marquee whitespace-nowrap">
-          ● Currently Open ● Happy Pets Only ● Good Boy Grooming ● Currently Open ● Happy Pets Only ● Good Boy Grooming
+          ● Currently Open ● Happy Pets Only ● Paw Club ● Currently Open ● Happy Pets Only ● Paw Club
         </div>
       </div>
     </main>
